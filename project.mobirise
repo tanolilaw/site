@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Muhammad Nizar Tanoli Law Associates",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 105,
+    "uniqCompNum": 106,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "",
@@ -909,6 +909,51 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "tMUFVKvg1w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-img": {
+              "border-radius": "10px",
+              "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+            },
+            "img": {
+              "border-radius": "10px"
+            },
+            ".link": {
+              "transition": "all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)",
+              ".mbr-iconfont": {
+                "font-size": "16px",
+                "width": "16px",
+                "margin-right": "10px",
+                "vertical-align": "middle"
+              },
+              "&:hover": {
+                "transform": "translatex(10px)"
+              }
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features1",
+          "_customHTML": "<section class=\"features1 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected=\"\">1</option>\n            <option value=\"2\">2</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/tanolilaw-2000x2000.png\" layout=\"responsive\" width=\"538\" height=\"538\" alt=\"Advocate Ziauddin Tanoli A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, he  has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.  Arslan is a prominent member of the Karachi Bar Association and the American Bar Association, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.  With a LL.B (Bachelor of Laws) degree, along with a Bachelor of Science degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.\" class=\"mobirise-loader\" title=\"Advocate Ziauddin Tanoli, Karachi, Pakistan\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/tanolilaw-2000x2000.png\" alt=\"Advocate Ziauddin Tanoli A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, he  has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.  Arslan is a prominent member of the Karachi Bar Association and the American Bar Association, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.  With a LL.B (Bachelor of Laws) degree, along with a Bachelor of Science degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.\" data-aspectratio=\"0.891578947368421\" title=\"Advocate Ziauddin Tanoli, Karachi, Pakistan\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Ziauddin Tanoli&nbsp;<div>Advocate High Court</div></h4>\n                        <p class=\"mbr-text mbr-fonts-style mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><i>Ziauddin Tanoli is an accomplished Advocate of the High Court, holding a LL.B degree and boasting vast experience in expertly handling a wide array of civil, criminal, and family litigation cases. With a strong educational foundation and years of practice, he has become a seasoned legal professional known for his dedication to delivering top-notch legal services. Ziauddin's expertise extends to family law matters, where he provides expert counsel and representation to clients facing complex family disputes. His commitment to upholding the law and protecting the rights of his clients has earned him a reputation for excellence in the legal field.</i><br>\n                        </p>\n                        <p class=\"link mbr-fonts-style mbr-bold mbr-pt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showLink\" data-app-selector=\".link\"></p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 last-child\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/img-2342-1044x1390.jpeg\" layout=\"responsive\" height=\"100\" width=\"131.34615384615384\" alt=\"Advocate Ahsan Abid Naich A dynamic and versatile Advocate of the High Court, with a proven track record of success in handling a wide range of cases including Criminal, Civil, and Family law. He holds a LL.B degree in Law and a Bachelor of Science, providing him with a strong foundation in both legal theory and practical applications. As a member of the prestigious American Bar Association and Karachi Bar Association, he stays current with the latest developments in the legal field and has built a reputation for providing expert counsel and representation to clients. With a commitment to delivering results and protecting the rights of his clients, Ahsan is dedicated to providing personalized and effective legal solutions. His extensive experience in handling appeals in the High Court has further strengthened his expertise in navigating complex legal matters. Trust Ahsan Abid Naich to advocate for your rights and defend your interests with passion and determination.\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2342-1044x1390.jpeg\" alt=\"Advocate Ahsan Abid Naich A dynamic and versatile Advocate of the High Court, with a proven track record of success in handling a wide range of cases including Criminal, Civil, and Family law. He holds a LL.B degree in Law and a Bachelor of Science, providing him with a strong foundation in both legal theory and practical applications. As a member of the prestigious American Bar Association and Karachi Bar Association, he stays current with the latest developments in the legal field and has built a reputation for providing expert counsel and representation to clients. With a commitment to delivering results and protecting the rights of his clients, Ahsan is dedicated to providing personalized and effective legal solutions. His extensive experience in handling appeals in the High Court has further strengthened his expertise in navigating complex legal matters. Trust Ahsan Abid Naich to advocate for your rights and defend your interests with passion and determination.\" data-aspectratio=\"0.7613469985358712\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Ahsan Abid<div>Advocate High Court</div></h4>\n                        <p class=\"mbr-text mbr-fonts-style mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><i>\n                            Ahsan Abid Naich, Advocate High Court, is a dynamic legal professional known for his versatile approach to law. With a <b>LL.B</b> degree in Law and a strong foundation in both legal theory and practical applications, Ahsan is a trusted expert in handling Criminal, Civil, and Family law cases. As a dedicated member of the American Bar Association and Karachi Bar Association, he ensures clients receive up-to-date and effective legal solutions. With a commitment to safeguarding rights and delivering results, Ahsan Abid Naich is your advocate for justice.</i><br>\n                        </p>\n                        <p class=\"link mbr-fonts-style mbr-bold mbr-pt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showLink\" data-app-selector=\".link\"></p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_anchor": "features1-2x",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "tOMreR8Nsi",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
